@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACIA Conecta - Vitrine de Membros</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones via Font Awesome (CDN gratuito) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
+</head>
+<body>
+
+<!--     <header>
+        <h1>ACIA CONECTA</h1>
+        <p>Fortalecendo o empreendedorismo em Araguari</p>
+    </header> -->
+
+     <!-- 1. Barra de Navegação -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <!-- <div class="nav-logo">ACIA <span>Conecta</span></div> -->
+            <div class="nav-logo"><img src="images\logo_acia_conecta.png"></div>
+            <ul class="nav-links">
+                <li><a href="index.html" >Home</a></li>
+				<li><a href="diretoria.html" >Diretoria</a></li>
+                <li><a href="vitrine.html" >Vitrine</a></li>
+				<!--<li><a href="https://www.aciaaraguari.com.br" target="_blank">ACIA</a></li>-->
+                <!--<li><a href="#contato">Contato</a></li>-->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 2. Cabeçalho -->
+    <header>
+        <h1>VITRINE DE NEGÓCIOS</h1>
+        <p>Conectando os melhores profissionais de Araguari</p>
+    </header>
+
+    <!-- 3. Seção de Filtros por Ramo de Atividade -->
+    <section class="filtros-container">
+        <span class="filtro-label">Filtrar por Ramo:</span>
+        <div class="filtros-botoes">
+            <button class="btn-filtro active" data-filter="todos">Todos</button>
+            <button class="btn-filtro" data-filter="tecnologia">Tecnologia</button>
+            <button class="btn-filtro" data-filter="saude">Saúde</button>
+            <button class="btn-filtro" data-filter="servicos">Serviços</button>
+            <button class="btn-filtro" data-filter="comercio">Comércio</button>
+            <button class="btn-filtro" data-filter="comercio">Indústria</button>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="vitrine-grid">
+            <!-- No seu card de membro, adicione a classe correspondente ao ramo -->
+            <article class="membro-card tecnologia">
+                <img src="images\Daydson.avif" alt="Daydson Hugo" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Daydson Hugo | Automatize</h3>
+					<p><i>Desenvolvimento de Software</i></p>
+                    <p>Transformo rotinas cansativas em processos automáticos. Desenvolvo soluções simples para escritórios que eliminam o trabalho manual repetitivo, tornando sua operação mais rápida e confiável. Menos tempo no teclado, mais tempo na estratégia do seu negócio.</p>
+                    
+					<!-- <div class="redes-sociais"> -->
+                        <!-- <a href="https://wa.me/5534992061613" target="_blank"><i class="fab fa-whatsapp"></i></a> -->
+                    <!-- </div> -->
+					<p>
+						<a href="https://wa.me/5534992061613" target="_blank"><img src="icons\whatsapp.png" width="24" height="24"></a>
+						<a href="https://www.instagram.com/daydsonhugo/" target="_blank"><img src="icons\instagram.png" width="24" height="24"></a>
+						<a href="https://www.linkedin.com/in/daydson-hugo-341988290/" target="_blank"><img src="icons\linkedin.png" width="24" height="24"></a>
+						<a href="https://linktr.ee/daydson.hugo" target="_blank"><img src="icons\dominio.png" width="24" height="24"></a>
+						<a href="mailto:daydson.hugo@hotmail.com" target="_blank"><img src="icons\e-mail.png" width="24" height="24"></a>
+					</p>
+                </div>
+            </article>
+            <!-- Outros membros virão aqui... -->
+
+            <article class="membro-card tecnologia">
+                <img src="images\Juliana.avif" alt="Juliana Gomes" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Juliana Gomes | Fotógrafa e Retratista</h3>
+					<p><i>Fotografia e Retrato Profissional</i></p>
+                    <p>Retratos com propósito. Crio imagens que vendem, conectam e te posicionam como referência.</p>
+<!--                     <div class="redes-sociais">
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div> -->
+					<p>
+						<a href="https://wa.me/5534992624124" target="_blank"><img src="icons\whatsapp.png" width="24" height="24"></a>
+						<a href="https://www.instagram.com/juliana.retratista/" target="_blank"><img src="icons\instagram.png" width="24" height="24"></a>
+						<a href="https://www.linkedin.com/in/juliana-gomes-508704290/" target="_blank"><img src="icons\linkedin.png" width="24" height="24"></a>
+						<a href="https://linktr.ee/julianag.fotografia" target="_blank"><img src="icons\dominio.png" width="24" height="24"></a>
+					</p>
+
+                </div>
+            </article>
+
+            <article class="membro-card tecnologia">
+                <img src="images\Nadia.avif" alt="Nadia Cristina" class="membro-foto">
+				<div class="membro-info">
+                    <h3>Nádia Cristina Santos Sudário</h3>
+					<p><i>Mestre Reiki</i></p>
+                    <p>Saúde mental não é tendência, é necessidade. É fundamental saber como as práticas integrativas transformam vidas e até ambientes corporativos.</p>
+                    <div class="redes-sociais">
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </article>
+			
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ACIA Conecta - Araguari/MG. <br> Desenvolvido por Daydson Hugo - Automatize.</p>
+    </footer>
+
+</body>
+</html>

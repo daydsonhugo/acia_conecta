@@ -211,3 +211,169 @@ footer {
 .btn-filtro:hover, .btn-filtro.active {
     background-color: var(--verde-conecta);
     color: var(--branco-puro);
+}
+
+/* --- Estilos da Home Hero --- */
+.home-hero {
+    height: 85vh;
+    background: url('https://images.unsplash.com') center/cover no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Fundo sólido e escuro para legibilidade máxima */
+.hero-overlay {
+    background-color: rgba(10, 10, 10, 0.85); /* Cinza muito escuro sólido */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.hero-content {
+    max-width: 700px;
+    color: white;
+}
+
+.badge {
+    background: var(--verde-conecta);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin: 20px 0;
+    line-height: 1.1;
+    color: var(--branco-puro); /* Garante que o título seja branco */
+}
+
+.hero-content h1 span {
+    color: var(--verde-conecta); /* Verde oficial da ACIA */
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+/* Botões da Home */
+.hero-btns {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary {
+    background: var(--verde-conecta);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-secondary {
+    border: 2px solid white;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary:hover { background: #014d2c; }
+.btn-secondary:hover { background: white; color: black; }
+
+/* --- Seção Sobre --- */
+.sobre-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.sobre-texto h2 span { color: var(--verde-conecta); }
+.sobre-texto p { margin: 20px 0; font-size: 1.1rem; }
+
+.lista-beneficios { list-style: none; }
+.lista-beneficios li { margin-bottom: 10px; font-weight: 500; }
+.lista-beneficios i { color: var(--verde-conecta); margin-right: 10px; }
+
+.sobre-imagem img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 20px 20px 0 var(--verde-conecta);
+}
+
+/* Ajuste Responsivo */
+@media (max-width: 768px) {
+    .sobre-grid { grid-template-columns: 1fr; }
+    .hero-content h1 { font-size: 2.2rem; }
+    .hero-btns { flex-direction: column; }
+}
+
+/* Seção do Google Forms (Call to Action) */
+.cta-forms {
+    background-color: var(--verde-conecta);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 40px;
+}
+
+.cta-forms h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.btn-forms {
+    display: inline-block;
+    background-color: var(--preto-conecta);
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s;
+    border: 2px solid transparent;
+}
+
+.btn-forms:hover {
+    background-color: white;
+    color: var(--verde-conecta);
+}
+
+/* Remove a formatação padrão de links dentro da badge */
+.hero-content a {
+    text-decoration: none; /* Remove o sublinhado */
+    display: inline-block; /* Garante que o link se comporte como o bloco da badge */
+}
+
+.badge {
+    background: var(--verde-conecta);
+    padding: 8px 18px; /* Ajustei um pouco o respiro para o clique ser mais fácil */
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--branco-puro); /* Força o texto a ser branco */
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse para o usuário saber que é clicável */
+.badge:hover {
+    background-color: #014d2c; /* Um verde um pouco mais escuro */
+    transform: scale(1.05); /* Dá um leve zoom */
+    color: var(--branco-puro); /* Garante que continue branco no hover */
+}

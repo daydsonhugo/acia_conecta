@@ -3,17 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACIA Conecta - Vitrine de Membros</title>
+    <title>ACIA Conecta - Home</title>
     <link rel="stylesheet" href="style.css">
     <!-- Ícones via Font Awesome (CDN gratuito) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
 </head>
 <body>
-
-<!--     <header>
-        <h1>ACIA CONECTA</h1>
-        <p>Fortalecendo o empreendedorismo em Araguari</p>
-    </header> -->
 
      <!-- 1. Barra de Navegação -->
     <nav class="navbar">
@@ -21,87 +16,60 @@
             <!-- <div class="nav-logo">ACIA <span>Conecta</span></div> -->
             <div class="nav-logo"><img src="images\logo_acia_conecta.png"></div>
             <ul class="nav-links">
-                <li><a href="#" >Home</a></li>
-                <li><a href="https://www.aciaaraguari.com.br" target="_blank">Site ACIA</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="index.html" >Home</a></li>
+				<li><a href="diretoria.html" >Diretoria</a></li>
+                <li><a href="vitrine.html" >Vitrine</a></li>
+				<!--<li><a href="https://www.aciaaraguari.com.br" target="_blank">ACIA</a></li>-->
+                <!--<li><a href="#contato">Contato</a></li>-->
             </ul>
         </div>
     </nav>
+	
+	<!-- Seção Hero Atualizada -->
+	<section class="home-hero">
+		<div class="hero-overlay">
+			<div class="hero-content">
+				<a href="https://www.aciaaraguari.com.br" target="_blank">
+					<span class="badge">ACIA ARAGUARI</span>
+				</a>
+				<h1>Conectando Negócios, <br><span>Fortalecendo Empresas.</span></h1>
+				<p>O ACIA Conecta é o hub de networking oficial da ACIA onde empresários de Araguari geram valor e novas oportunidades.</p>
+				<div class="hero-btns">
+					<a href="vitrine.html" class="btn-primary">Ver Vitrine de Membros</a>
+					<!-- Link direto para o formulário no topo também -->
+					<a href="https://forms.gle/5r9K65P2j93dkn1h6" target="_blank" class="btn-secondary">Quero ser Membro</a>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- 2. Cabeçalho -->
-    <header>
-        <h1>VITRINE DE NEGÓCIOS</h1>
-        <p>Conectando os melhores profissionais de Araguari</p>
-    </header>
+	<!-- Seção Sobre Simples -->
+	<section id="sobre" class="container sobre-acia">
+		<div class="sobre-grid">
+			<div class="sobre-texto">
+				<h2>O que é o <span>ACIA Conecta?</span></h2>
+				<p>Nascido dentro da Associação Comercial e Industrial de Araguari, nosso grupo reúne prestadores de serviço e empresários locais com um objetivo comum: <strong>crescer juntos.</strong></p>
+				<ul class="lista-beneficios">
+					<li><i class="fas fa-check-circle"></i> Networking Qualificado</li>
+					<li><i class="fas fa-check-circle"></i> Educação Executiva</li>
+					<li><i class="fas fa-check-circle"></i> Vitrine Exclusiva de Serviços</li>
+				</ul>
+			</div>
+			<div class="sobre-imagem">
+				<!-- Você pode usar uma foto real de uma reunião do grupo aqui -->
+				<img src="images\Acia-network.avif" alt="Networking">
+			</div>
+		</div>
+	</section>
 
-    <!-- 3. Seção de Filtros por Ramo de Atividade -->
-    <section class="filtros-container">
-        <span class="filtro-label">Filtrar por Ramo:</span>
-        <div class="filtros-botoes">
-            <button class="btn-filtro active" data-filter="todos">Todos</button>
-            <button class="btn-filtro" data-filter="tecnologia">Tecnologia</button>
-            <button class="btn-filtro" data-filter="saude">Saúde</button>
-            <button class="btn-filtro" data-filter="servicos">Serviços</button>
-            <button class="btn-filtro" data-filter="comercio">Comércio</button>
-            <button class="btn-filtro" data-filter="comercio">Indústria</button>
-        </div>
-    </section>
-
-    <main class="container">
-        <div class="vitrine-grid">
-            <!-- No seu card de membro, adicione a classe correspondente ao ramo -->
-            <article class="membro-card tecnologia">
-                <img src="images\Daydson.avif" alt="Daydson Hugo" class="membro-foto">
-                <div class="membro-info">
-                    <h3>Daydson Hugo | Automatize</h3>
-					<p><i>Desenvolvimento de Software</i></p>
-                    <p>Há 35 anos programando, adquiri o hábito de observar, por onde passo, as atividades desenvolvidas em computadores que podem ser executadas de forma automática. Normalmente, são atividades repetitivas e que, quando feitas por pessoas, tendem a ser lentas e cansativas. A partir de então, desenvolvo pequenos softwares que são capazes de executar essas atividades de forma mais rápida e confiável, liberando as pessoas para as tarefas realmente humanas, como criar e fazer negócios.</p>
-                    
-					<!-- <div class="redes-sociais"> -->
-                        <!-- <a href="https://wa.me/5534992061613" target="_blank"><i class="fab fa-whatsapp"></i></a> -->
-                    <!-- </div> -->
-					<p>
-						<a href="https://wa.me/5534992061613" target="_blank"><img src="icons\whatsapp.png" width="24" height="24"></a>
-						<a href="https://www.instagram.com/daydsonhugo/" target="_blank"><img src="icons\instagram.png" width="24" height="24"></a>
-						<a href="https://linktr.ee/daydson.hugo" target="_blank"><img src="icons\dominio.png" width="24" height="24"></a>
-						<a href="mailto:daydson.hugo@hotmail.com" target="_blank"><img src="icons\e-mail.png" width="24" height="24"></a>
-					</p>
-                </div>
-            </article>
-            <!-- Outros membros virão aqui... -->
-
-            <article class="membro-card tecnologia">
-                <img src="images\Juliana.avif" alt="Juliana Gomes" class="membro-foto">
-                <div class="membro-info">
-                    <h3>Juliana Gomes | Fotógrafa e Retratista</h3>
-					<p><i>Fotografia e Retrato Profissional</i></p>
-                    <p>Retratos com propósito. Crio imagens que vendem, conectam e te posicionam como referência.</p>
-<!--                     <div class="redes-sociais">
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-                    </div> -->
-					<p>
-						<a href="https://wa.me/5534992624124" target="_blank"><img src="icons\whatsapp.png" width="24" height="24"></a>
-						<a href="https://www.instagram.com/juliana.retratista/" target="_blank"><img src="icons\instagram.png" width="24" height="24"></a>
-						<a href="https://linktr.ee/julianag.fotografia" target="_blank"><img src="icons\dominio.png" width="24" height="24"></a>
-					</p>
-
-                </div>
-            </article>
-
-            <article class="membro-card tecnologia">
-                <img src="images\Nadia.avif" alt="Nadia Cristina" class="membro-foto">
-				<div class="membro-info">
-                    <h3>Nádia Cristina Santos Sudário</h3>
-					<p><i>Mestre Reiki</i></p>
-                    <p>Saúde mental não é tendência, é necessidade. É fundamental saber como as práticas integrativas transformam vidas e até ambientes corporativos.</p>
-                    <div class="redes-sociais">
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-                    </div>
-                </div>
-            </article>
-			
-        </div>
-    </main>
+	<!-- Seção Convite para Membros (Google Forms) -->
+	<section class="cta-forms">
+		<h2>Faça parte do ACIA Conecta</h2>
+		<p>Sua empresa ou serviço merece destaque no maior grupo de networking de Araguari.</p>
+		<a href="https://forms.gle" target="_blank" class="btn-forms">
+			<i class="fab fa-google"></i> Preencher Formulário de Inscrição
+		</a>
+	</section>
 
     <footer>
         <p>&copy; 2026 ACIA Conecta - Araguari/MG. <br> Desenvolvido por Daydson Hugo - Automatize.</p>
