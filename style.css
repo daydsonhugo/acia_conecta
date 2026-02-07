@@ -377,3 +377,36 @@ footer {
     transform: scale(1.05); /* Dá um leve zoom */
     color: var(--branco-puro); /* Garante que continue branco no hover */
 }
+
+/* Ajustes para Celular (Responsividade) */
+@media (max-width: 768px) {
+    .nav-content {
+        flex-direction: column; /* Coloca o logo em cima e os links embaixo */
+        padding: 10px;
+    }
+
+    .nav-logo {
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+
+    .nav-links {
+        gap: 15px; /* Diminui o espaço entre links */
+        padding: 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-links li a {
+        font-size: 0.9rem; /* Diminui um pouco a letra no celular */
+    }
+
+    /* Ajuste do Hero para não cortar o texto */
+    .hero-content h1 {
+        font-size: 2rem; 
+    }
+    
+    .hero-overlay {
+        padding: 0 5%; /* Dá mais espaço lateral para o texto */
+    }
+}
