@@ -28,7 +28,7 @@ header {
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
@@ -39,63 +39,6 @@ header p {
     text-transform: uppercase;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 50px auto;
-    padding: 0 20px;
-}
-
-/* Vitrine em Grid */
-.vitrine-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 30px;
-}
-
-/* Módulo (Card) do Membro */
-.membro-card {
-    background: var(--branco-puro);
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    transition: all 0.3s ease;
-    border-left: 5px solid var(--preto-conecta); /* Detalhe lateral */
-}
-
-.membro-card:hover {
-    transform: translateY(-8px);
-    border-left-color: var(--verde-conecta); /* Muda para verde no hover */
-    box-shadow: 0 8px 20px rgba(2, 108, 62, 0.2);
-}
-
-.membro-foto {
-    width: 100%;
-    height: 220px;
-    object-fit: scale-down;
-    filter: grayscale(20%); /* Leve toque clássico */
-}
-
-.membro-info {
-    padding: 20px;
-    min-height: 180px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.membro-info h3 {
-    color: var(--preto-conecta);
-    font-size: 1.2rem;
-    margin-bottom: 12px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 8px;
-}
-
-.membro-info p {
-    font-size: 0.95rem;
-    color: var(--texto-suave);
-    margin-bottom: 20px;
-}
 
 /* Ícones de Contato */
 .redes-sociais {
@@ -409,4 +352,3 @@ footer {
     .hero-overlay {
         padding: 0 5%; /* Dá mais espaço lateral para o texto */
     }
-}
