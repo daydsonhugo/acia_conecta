@@ -28,7 +28,7 @@ header {
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
@@ -409,4 +409,10 @@ footer {
     .hero-overlay {
         padding: 0 5%; /* Dá mais espaço lateral para o texto */
     }
+	
+	header h1 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
 }
