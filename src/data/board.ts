@@ -1,0 +1,111 @@
+import { BoardMember } from "../types/content";
+
+export const boardPeriod = "Gestão 2026 - 2028";
+
+export const boardMembers: BoardMember[] = [
+  {
+    id: "anderson-cardoso-thomas",
+    name: "Anderson Cardoso Thomas",
+    role: "Presidente | ACIA Conecta",
+    bio: "Empresário do setor industrial, com atuação estratégica voltada ao fortalecimento do associativismo e ao desenvolvimento do ambiente de negócios local.",
+    image: "/images/ANDERSON THOMAS.jpg",
+  },
+  {
+    id: "carlos-antonio-vieira",
+    name: "Carlos Antônio Vieira",
+    role: "Chanceler | ACIA Conecta",
+    bio: "Empresário do setor da construção, com experiência em gestão e relacionamento institucional para consolidar a governança do núcleo.",
+    image: "/images/CARLOS.jpg",
+  },
+  {
+    id: "daydson-hugo-da-silva",
+    name: "Daydson Hugo da Silva",
+    role: "Diretor de Performance e Tecnologia | ACIA Conecta",
+    bio: "Empresário do segmento de tecnologia, com foco em inovação, performance e soluções digitais para modernização de processos.",
+    image: "/assets/images/daydson.jpg",
+  },
+  {
+    id: "gabriel-alves-goncalves",
+    name: "Gabriel Alves Gonçalves",
+    role: "Diretor de Marketing | ACIA Conecta",
+    bio: "Responsável pelo posicionamento institucional, estratégias de comunicação e fortalecimento da marca ACIA Conecta.",
+    image: "/images/Gabriel.jpg",
+  },
+  {
+    id: "iolanda-zacharias-franca",
+    name: "Iolanda Zacharias França",
+    role: "Diretora de Eventos | ACIA Conecta",
+    bio: "Atua na organização e coordenação de eventos institucionais para fortalecer networking, integração e engajamento.",
+    image: "/images/IOLANDA.jpg",
+  },
+  {
+    id: "jeferson-rodrigues-andrade",
+    name: "Jeferson Rodrigues Andrade",
+    role: "Diretor de Expansão | ACIA Conecta",
+    bio: "Empresário do segmento de academias e bem-estar, com foco em crescimento, expansão de negócios e ampliação da rede.",
+    image: "/images/JEFERSON.jpg",
+  },
+  {
+    id: "joao-paulo-ferreira-martins",
+    name: "João Paulo Ferreira Martins",
+    role: "Diretor da Juventude | ACIA Conecta",
+    bio: "Empresário do setor automotivo e da formação profissional, atuando no desenvolvimento de talentos e liderança jovem.",
+    image: "/images/JOÃO PAULO.jpg",
+  },
+  {
+    id: "judi-cantarin",
+    name: "Judi Cantarin",
+    role: "Vice-Presidente | ACIA Conecta",
+    bio: "Consultora estratégica e fundadora da Judi Cantarin Assessoria de Negócios, com atuação em planejamento e governança.",
+    image: "/images/JUDI.jpg",
+  },
+  {
+    id: "lucas-fernando-barbosa-gomes",
+    name: "Lucas Fernando Barbosa Gomes",
+    role: "Diretor Administrativo | ACIA Conecta",
+    bio: "Advogado e empresário, com atuação na organização administrativa, governança e apoio jurídico institucional.",
+    image: "/images/LUCAS.jpg",
+  },
+  {
+    id: "luiz-neto-fontes-junior",
+    name: "Luiz Neto Fontes Junior",
+    role: "Diretor de Educação | ACIA Conecta",
+    bio: "Empresário com atuação em educação corporativa e formação executiva, liderando iniciativas de capacitação empresarial.",
+    image: "/images/LUIZ NETO.jpeg",
+  },
+  {
+    id: "nathalia-miranda-inacio",
+    name: "Nathalia Miranda Inacio",
+    role: "Diretora de Relacionamento | ACIA Conecta",
+    bio: "Atua no fortalecimento do relacionamento com associados, integração de novos membros e comunicação humanizada.",
+    image: "/images/NATHALIA.jpg",
+  },
+  {
+    id: "norival-azevedo-davila",
+    name: "Norival Azevedo D'Ávila",
+    role: "Diretor de Assuntos Públicos | ACIA Conecta",
+    bio: "Empresário do segmento pet, com atuação na interface entre setor produtivo e poder público.",
+    image: "/images/NORIVAL.jpg",
+  },
+  {
+    id: "paulo-henrique-amorim-de-sousa",
+    name: "Paulo Henrique Amorim de Sousa",
+    role: "Diretor de Operações | ACIA Conecta",
+    bio: "Empresário do setor industrial, com foco em eficiência operacional, processos e apoio à execução das ações do núcleo.",
+    image: "/images/PAULO HENRIQUE.jpg",
+  },
+  {
+    id: "teodora-regina-marques-de-sousa-oliveira",
+    name: "Teodora Regina Marques de Sousa Oliveira",
+    role: "Diretora Financeira | ACIA Conecta",
+    bio: "Profissional do sistema financeiro, responsável pela organização financeira e sustentabilidade econômica do grupo.",
+    image: "/images/TEODORA.jpg",
+  },
+  {
+    id: "thiago-alves-ferreira",
+    name: "Thiago Alves Ferreira",
+    role: "Diretor Jurídico | ACIA Conecta",
+    bio: "Advogado e empresário, com atuação em segurança jurídica, contratos e governança institucional.",
+    image: "/images/THIAGO ALVES.jpeg",
+  },
+];
