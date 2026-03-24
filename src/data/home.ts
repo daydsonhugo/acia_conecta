@@ -1,18 +1,17 @@
 import { Benefit } from "../types/content";
 
 export const navigationLinks = [
-  { label: "Início", href: "#inicio" },
-  { label: "Diretoria", href: "#diretoria" },
-  { label: "Vitrine", href: "#vitrine" },
-  { label: "Contato", href: "#contato" },
+  { label: "Home", path: "/" },
+  { label: "Diretoria", path: "/diretoria" },
+  { label: "Vitrine", path: "/vitrine" },
 ];
 
 export const heroData = {
   badge: "ACIA ARAGUARI",
-  title: "Conectando negócios,",
-  accent: "fortalecendo empresas.",
+  title: "Conectando Negócios,",
+  accent: "Fortalecendo Empresas.",
   description:
-    "O ACIA Conecta é o hub oficial de networking da ACIA para empresários e prestadores de serviço de Araguari gerarem relacionamento, visibilidade e novas oportunidades.",
+    "O ACIA Conecta é o hub de networking oficial da ACIA onde empresários de Araguari geram valor e novas oportunidades.",
   backgroundImage: "/assets/images/acia-network.jpg",
 };
 
@@ -20,31 +19,28 @@ export const aciaSiteUrl = "https://www.aciaaraguari.com.br";
 export const membershipFormUrl = "https://forms.gle/5r9K65P2j93dkn1h6";
 
 export const aboutData = {
-  title: "Uma comunidade empresarial pensada para crescer junto",
+  title: "O que é o ACIA Conecta?",
   description:
-    "Nascido dentro da Associação Comercial e Industrial de Araguari, o ACIA Conecta reúne profissionais e empresas locais com um objetivo comum: gerar valor real por meio de relacionamento, educação e presença de mercado.",
+    "Nascido dentro da Associação Comercial e Industrial de Araguari, nosso grupo reúne prestadores de serviço e empresários locais com um objetivo comum: crescer juntos.",
 };
 
 export const benefits: Benefit[] = [
   {
     id: "networking",
-    title: "Networking qualificado",
-    description:
-      "Encontros e conexões com empresários que abrem portas para parceria, indicação e novos negócios.",
+    title: "Networking Qualificado",
+    description: "Networking Qualificado",
     icon: "handshake",
   },
   {
     id: "education",
-    title: "Educação executiva",
-    description:
-      "Troca de experiência e aprendizado contínuo para fortalecer gestão, estratégia e posicionamento.",
+    title: "Educação Executiva",
+    description: "Educação Executiva",
     icon: "graduation",
   },
   {
     id: "showcase",
-    title: "Vitrine exclusiva",
-    description:
-      "Um espaço digital para destacar serviços, diferenciais e canais de contato dos membros do grupo.",
+    title: "Vitrine Exclusiva de Serviços",
+    description: "Vitrine Exclusiva de Serviços",
     icon: "store",
   },
 ];

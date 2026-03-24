@@ -3,7 +3,7 @@ type BrandMarkProps = {
 };
 
 export function BrandMark({ light = false }: BrandMarkProps) {
-  const subtitleClassName = light ? "text-white/70" : "text-conecta-700";
+  const subtitleClassName = light ? "text-white/84" : "text-conecta-700";
   const titleClassName = light ? "text-white" : "text-conecta-900";
   const logoImageClassName = light
     ? "drop-shadow-[0_14px_28px_rgba(0,0,0,0.22)]"

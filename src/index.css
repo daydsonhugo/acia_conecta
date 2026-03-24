@@ -15,7 +15,7 @@
   }
 
   #root {
-    min-height: 100vh;
+    min-height: 100svh;
   }
 
   a {
@@ -26,5 +26,63 @@
 @layer components {
   .section-shell {
     @apply mx-auto max-w-7xl px-6 py-20;
+  }
+
+  .page-shell {
+    @apply flex-1;
+    min-height: 100%;
+  }
+
+  .page-transition {
+    @apply flex flex-1 flex-col;
+    animation: page-enter 320ms cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+  }
+
+  .scroll-reveal {
+    opacity: 0;
+    transform: translateY(22px);
+    filter: saturate(0.96);
+    transition:
+      opacity 680ms cubic-bezier(0.22, 1, 0.36, 1),
+      transform 680ms cubic-bezier(0.22, 1, 0.36, 1),
+      filter 680ms cubic-bezier(0.22, 1, 0.36, 1);
+    transition-delay: var(--reveal-delay, 0ms);
+    will-change: opacity, transform;
+  }
+
+  .scroll-reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+    filter: saturate(1);
+  }
+}
+
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .page-transition {
+    animation: none;
+  }
+
+  .scroll-reveal {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    transition: none;
   }
 }

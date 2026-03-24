@@ -7,7 +7,7 @@ export const showcaseMembers: ShowcaseMember[] = [
     name: "ALB Monitoramento de Alarmes",
     tagline: "Alarmes monitorados e soluções em segurança eletrônica",
     description:
-      "Projetos personalizados de alarme monitorado, CFTV, controle de acesso e tecnologias avançadas para proteger patrimônios e negócios com agilidade.",
+      "A ALB Alarmes atua com soluções completas em segurança eletrônica, oferecendo projetos personalizados de alarme monitorado, CFTV, controle de acesso e tecnologias avançadas de monitoramento. Nosso compromisso é proteger patrimônios e negócios com tecnologia e agilidade.",
     image: "/assets/images/alb-logo.png",
     links: [
       { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/3432491700" },
@@ -32,7 +32,7 @@ export const showcaseMembers: ShowcaseMember[] = [
     name: "Rafael Fernandes",
     tagline: "Infraestrutura, engenharia e construção",
     description:
-      "Atuação em infraestrutura de engenharia, drenagem pluvial, terraplenagem, pavimentação asfáltica, meio-fio e sarjetas para cidade e região.",
+      "Olá pessoal! Nós da R. Fernandes Construção, atuamos há mais de 4 anos na cidade e região com foco em INFRAESTRUTURA de engenharia, tais como, Drenagem Pluvial, Terraplenagem, Pavimentação asfáltica, meio fio e sarjetas, etc. Eu sou Rafael Fernandes, fundador e Diretor da RF.",
     image: "/images/Rafael Fernandes.jpeg",
     links: [
       { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/5534991186900" },
@@ -58,9 +58,9 @@ export const showcaseMembers: ShowcaseMember[] = [
     id: "araguari-gas",
     category: "Energia",
     name: "Araguari Gás",
-    tagline: "O gás que você precisa",
+    tagline: "Araguari Gás, O Gás que você precisa",
     description:
-      "Revenda de gás de cozinha em Araguari-MG com atendimento rápido, segurança, qualidade e entrega ágil para residências e comércios.",
+      "Araguari Gás é uma revenda de gás de cozinha em Araguari-MG, oferecendo atendimento rápido, segurança e qualidade. Peça seu botijão pelos telefones (34) 3021-4707 ou WhatsApp (34) 98413-4703. Entrega ágil para sua casa ou comércio.",
     image: "/images/Sergio Loureiro.png",
     links: [
       { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/5534984134703" },
@@ -77,9 +77,9 @@ export const showcaseMembers: ShowcaseMember[] = [
     id: "daydson-hugo-automatize",
     category: "Tecnologia",
     name: "Daydson Hugo | Automatize",
-    tagline: "Desenvolvimento de software",
+    tagline: "Desenvolvimento de Software",
     description:
-      "Soluções para eliminar tarefas repetitivas e deixar a operação mais rápida, confiável e orientada à estratégia do negócio.",
+      "Transformo rotinas cansativas em processos automáticos. Desenvolvo soluções simples para escritórios que eliminam o trabalho manual repetitivo, tornando sua operação mais rápida e confiável. Menos tempo no teclado, mais tempo na estratégia do seu negócio.",
     image: "/assets/images/daydson.jpg",
     links: [
       { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/5534992061613" },
@@ -101,9 +101,9 @@ export const showcaseMembers: ShowcaseMember[] = [
     id: "juliana-gomes",
     category: "Fotografia",
     name: "Juliana Gomes | Fotógrafa e Retratista",
-    tagline: "Fotografia e retrato profissional",
+    tagline: "Fotografia e Retrato Profissional",
     description:
-      "Retratos com propósito para vender, conectar e posicionar profissionais e marcas como referência.",
+      "Retratos com propósito. Crio imagens que vendem, conectam e te posicionam como referência.",
     image: "/assets/images/juliana.jpg",
     links: [
       { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/5534992624124" },
