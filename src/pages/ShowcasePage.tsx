@@ -15,12 +15,12 @@ export function ShowcasePage() {
           </p>
         </ScrollReveal>
 
-        <div className="mt-12 grid gap-6 xl:grid-cols-2">
+        <div className="mt-12 grid items-stretch gap-6 xl:grid-cols-2">
           {showcaseMembers.map((member, index) => (
             <ScrollReveal
               key={member.id}
               delay={(index % 2) * 90}
-              className="h-full"
+              className="h-full self-stretch"
             >
               <ShowcaseCard member={member} />
             </ScrollReveal>

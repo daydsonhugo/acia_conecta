@@ -25,15 +25,15 @@ const iconByType: Record<LinkType, ReactNode> = {
 
 export function ShowcaseCard({ member }: ShowcaseCardProps) {
   return (
-    <article className="overflow-hidden rounded-[2rem] border border-conecta-100 bg-white shadow-panel">
+    <article className="flex h-full flex-col overflow-hidden rounded-[2rem] border border-conecta-100 bg-white shadow-panel">
       <div className="aspect-[16/10] overflow-hidden bg-gradient-to-br from-conecta-50 to-white">
         <img src={member.image} alt={member.name} className="h-full w-full object-contain p-6" />
       </div>
 
-      <div className="p-6">
+      <div className="flex flex-1 flex-col p-6">
         <h3 className="font-display text-3xl font-semibold text-conecta-900">{member.name}</h3>
         <p className="mt-2 text-base italic text-conecta-600">{member.tagline}</p>
-        <p className="mt-4 text-sm leading-7 text-conecta-700">{member.description}</p>
+        <p className="mt-4 flex-1 text-sm leading-7 text-conecta-700">{member.description}</p>
 
         <div className="mt-6 flex flex-wrap gap-3">
           {member.links.map((link) => (
