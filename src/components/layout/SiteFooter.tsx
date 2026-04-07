@@ -5,7 +5,7 @@ export function SiteFooter() {
         <p className="text-sm leading-7 text-white/84">
           &copy; 2026 ACIA Conecta - Araguari/MG.
           <br />
-          Desenvolvido por Daydson Hugo - Automatize.
+           {/* Desenvolvido por Daydson Hugo - Automatize. */}
         </p>
       </div>
     </footer>

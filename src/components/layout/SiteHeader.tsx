@@ -17,6 +17,7 @@ export function SiteHeader() {
         >
           <p className="font-display text-[1.4rem] font-semibold tracking-[0.02em] text-white md:text-[1.72rem]">
             ACIA Conecta
+            {/* <img src="/images/logo_acia_conecta.png" alt="ACIA Conecta" className="h-10 w-auto" /> */}
           </p>
         </Link>
 
