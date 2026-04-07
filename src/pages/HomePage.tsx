@@ -105,7 +105,7 @@ export function HomePage() {
             Faça parte do ACIA Conecta
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-white [text-shadow:0_8px_24px_rgba(0,0,0,0.18)] md:text-lg">
-            Sua empresa ou serviço merece destaque no maior grupo de networking de Araguari.
+            Sua empresa merece destaque no grupo empresarial que mais cresce em Araguari.
           </p>
           <a
             href={membershipFormUrl}
