@@ -6,6 +6,8 @@ import {
   Mail,
   MessageCircle,
   Phone,
+  Facebook,
+  MapPin,
 } from "lucide-react";
 
 import { LinkType, ShowcaseMember } from "../types/content";
@@ -21,6 +23,8 @@ const iconByType: Record<LinkType, ReactNode> = {
   phone: <Phone className="h-4 w-4" />,
   website: <Globe className="h-4 w-4" />,
   whatsapp: <MessageCircle className="h-4 w-4" />,
+  facebook: <Facebook className="h-4 w-4" />,
+  location: <MapPin className="h-4 w-4" />,
 };
 
 export function ShowcaseCard({ member }: ShowcaseCardProps) {

@@ -48,6 +48,13 @@ export function HomePage() {
                 Nosso Instagram
               </Link>
               <Link
+                to="/diretoria"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-conecta-500 px-6 py-4 text-sm font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-conecta-400"
+              >
+                Diretoria
+                <ArrowRight className="h-4 w-4" />
+              </Link>   
+              <Link
                 to="/vitrine"
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-conecta-500 px-6 py-4 text-sm font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-conecta-400"
               >

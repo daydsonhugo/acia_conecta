@@ -24,6 +24,7 @@ export const showcaseMembers: ShowcaseMember[] = [
       { type: "website", label: "Site", url: "https://www.albalarmes.com.br" },
       { type: "email", label: "E-mail", url: "mailto:alb@albalarmes.com.br" },
       { type: "phone", label: "Telefone", url: "tel:+553432491700" },
+      { type: "location", label: "Localização", url: "https://maps.app.goo.gl/qCacXbf7UZTaALQT9" },
     ],
   },
   {
@@ -54,6 +55,9 @@ export const showcaseMembers: ShowcaseMember[] = [
       { type: "phone", label: "Telefone", url: "tel:+553430214247" },
     ],
   },
+
+
+
   {
     id: "araguari-gas",
     category: "Energia",
@@ -71,8 +75,36 @@ export const showcaseMembers: ShowcaseMember[] = [
       },
       { type: "email", label: "E-mail", url: "mailto:araguarigas@gmail.com" },
       { type: "phone", label: "Telefone", url: "tel:+553430214707" },
+      { type: "location", label: "Localização", url: "https://maps.app.goo.gl/4EgJaVZyfhyo912w8" },
     ],
   },
+
+
+//  {
+//     id: "Droga-Doctor-ENTREFARMA",
+//     category: "Comércio",
+//     name: "Droga Doctor ENTREFARMA",
+//     tagline: "Medicamentos, perfumaria e suplementos em geral",
+//     description:
+//       "Cuidar de você é nossa especialidade! 💊 Na Droga Doctor e Entrefarma Araguari, você encontra o mix completo: medicamentos, perfumaria e suplementos com o melhor atendimento da região. Tudo o que sua saúde e beleza precisam em um só lugar. Visite uma de nossas lojas! 📍",
+//     image: "/images/DrogaDoctor.jpeg",
+//     links: [
+//       { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/5534992113915" },
+//       {
+//         type: "instagram",
+//         label: "Instagram",
+//         url: "https://www.instagram.com/drogadoctor.entrefarma/",
+//       },
+//       { type: "website", label: "Site", url: "https://www.drogadoctor.com.br" },      
+//       { type: "email", label: "E-mail", url: "mailto:convenio@drogadoctor.com.br" },
+//       { type: "phone", label: "Telefone", url: "tel:+553432492353" },
+//       { type: "facebook", label: "Facebook", url: "https://www.facebook.com/DrogaDoctoreEntrefarma/" },
+//       { type: "location", label: "Localização", url: "https://maps.app.goo.gl/stkrE8NUUGWiEo838" },
+//     ],
+//   },
+
+
+
   {
     id: "daydson-hugo-automatize",
     category: "Tecnologia",
