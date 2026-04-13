@@ -8,7 +8,8 @@ export function SiteHeader() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-[linear-gradient(180deg,rgba(6,20,15,0.96)_0%,rgba(6,20,15,0.90)_100%)] shadow-[0_20px_48px_rgba(3,12,9,0.22)] backdrop-blur-2xl">
+    // <header className="sticky top-0 z-50 border-b border-white/10 bg-[linear-gradient(180deg,rgba(6,20,15,0.96)_0%,rgba(6,20,15,0.90)_100%)] shadow-[0_20px_48px_rgba(3,12,9,0.22)] backdrop-blur-2xl">
+     <header className="sticky top-0 z-50 border-b border-white/10 bg-black shadow-[0_20px_48px_rgba(3,12,9,0.22)] backdrop-blur-2xl">
       <div className="mx-auto flex max-w-7xl items-center gap-6 px-6 py-5">
         <Link
           to="/"
@@ -16,7 +17,8 @@ export function SiteHeader() {
           className="min-w-0 transition-opacity hover:opacity-100"
         >
           <p className="font-display text-[1.4rem] font-semibold tracking-[0.02em] text-white md:text-[1.72rem]">
-            ACIA Conecta
+            {/* ACIA Conecta */}
+            <img src="/images/logo_acia_conecta.png" alt="ACIA Conecta" className="h-15  w-auto" />
           </p>
         </Link>
 

@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { ScrollReveal } from "../components/ScrollReveal";
 import { aciaSiteUrl, benefits, heroData, membershipFormUrl } from "../data/home";
 
+import { Instagram } from "lucide-react";
+
 export function HomePage() {
   return (
     <>
@@ -39,12 +41,26 @@ export function HomePage() {
 
             <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
               <Link
+                to="https://www.instagram.com/acia_conecta/"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-conecta-500 px-6 py-4 text-sm font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-conecta-400"
+              >
+                <Instagram className="h-4 w-4" />
+                Nosso Instagram
+              </Link>
+              <Link
+                to="/diretoria"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-conecta-500 px-6 py-4 text-sm font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-conecta-400"
+              >
+                Diretoria
+                {/* <ArrowRight className="h-4 w-4" /> */}
+              </Link>   
+              <Link
                 to="/vitrine"
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-conecta-500 px-6 py-4 text-sm font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-conecta-400"
               >
-                Ver Vitrine de Membros
-                <ArrowRight className="h-4 w-4" />
-              </Link>
+                Vitrine de Membros
+                {/* <ArrowRight className="h-4 w-4" /> */}
+              </Link>              
               <a
                 href={membershipFormUrl}
                 target="_blank"
@@ -66,7 +82,7 @@ export function HomePage() {
             </h2>
             <p className="mt-6 max-w-2xl text-base leading-8 text-conecta-700 md:text-lg">
               Nascido dentro da Associação Comercial e Industrial de Araguari, nosso grupo reúne
-              prestadores de serviço e empresários locais com um objetivo comum:{" "}
+              os maiores empresários locais com um objetivo comum:{" "}
               <strong>crescer juntos.</strong>
             </p>
 
@@ -96,7 +112,7 @@ export function HomePage() {
             Faça parte do ACIA Conecta
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-white [text-shadow:0_8px_24px_rgba(0,0,0,0.18)] md:text-lg">
-            Sua empresa ou serviço merece destaque no maior grupo de networking de Araguari.
+            Sua empresa merece destaque no grupo empresarial que mais cresce em Araguari.
           </p>
           <a
             href={membershipFormUrl}

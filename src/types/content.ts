@@ -19,7 +19,9 @@ export type LinkType =
   | "linkedin"
   | "website"
   | "email"
-  | "phone";
+  | "phone"
+  | "facebook"
+  | "location";
 
 export type ShowcaseLink = {
   type: LinkType;
