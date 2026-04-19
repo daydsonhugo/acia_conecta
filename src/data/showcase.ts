@@ -3,7 +3,7 @@ import { ShowcaseMember } from "../types/content";
 export const showcaseMembers: ShowcaseMember[] = [
   {
     id: "alb-monitoramento-de-alarmes",
-    category: "Segurança",
+    category: "Serviços",
     name: "ALB Monitoramento de Alarmes",
     tagline: "Alarmes monitorados e soluções em segurança eletrônica",
     description:
@@ -29,7 +29,7 @@ export const showcaseMembers: ShowcaseMember[] = [
   },
   {
     id: "rafael-fernandes",
-    category: "Infraestrutura",
+    category: "Serviços",
     name: "Rafael Fernandes",
     tagline: "Infraestrutura, engenharia e construção",
     description:
@@ -56,11 +56,9 @@ export const showcaseMembers: ShowcaseMember[] = [
     ],
   },
 
-
-
   {
     id: "araguari-gas",
-    category: "Energia",
+    category: "Comércio",
     name: "Araguari Gás",
     tagline: "Araguari Gás, O Gás que você precisa",
     description:
@@ -79,35 +77,79 @@ export const showcaseMembers: ShowcaseMember[] = [
     ],
   },
 
+ {
+    id: "Droga-Doctor-ENTREFARMA",
+    category: "Comércio",
+    name: "Droga Doctor ENTREFARMA",
+    tagline: "Medicamentos, perfumaria e suplementos em geral",
+    description:
+      "Cuidar de você é nossa especialidade! 💊 Na Droga Doctor e Entrefarma Araguari, você encontra o mix completo: medicamentos, perfumaria e suplementos com o melhor atendimento da região. Tudo o que sua saúde e beleza precisam em um só lugar. Visite uma de nossas lojas! 📍",
+    image: "/images/DrogaDoctor.jpeg",
+    links: [
+      { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/5534992113915" },
+      {
+        type: "instagram",
+        label: "Instagram",
+        url: "https://www.instagram.com/drogadoctor.entrefarma/",
+      },
+      { type: "website", label: "Site", url: "https://www.drogadoctor.com.br" },      
+      { type: "email", label: "E-mail", url: "mailto:convenio@drogadoctor.com.br" },
+      { type: "phone", label: "Telefone", url: "tel:+553432492353" },
+      { type: "facebook", label: "Facebook", url: "https://www.facebook.com/DrogaDoctoreEntrefarma/" },
+      { type: "location", label: "Localização", url: "https://maps.app.goo.gl/stkrE8NUUGWiEo838" },
+    ],
+  },
 
-//  {
-//     id: "Droga-Doctor-ENTREFARMA",
-//     category: "Comércio",
-//     name: "Droga Doctor ENTREFARMA",
-//     tagline: "Medicamentos, perfumaria e suplementos em geral",
-//     description:
-//       "Cuidar de você é nossa especialidade! 💊 Na Droga Doctor e Entrefarma Araguari, você encontra o mix completo: medicamentos, perfumaria e suplementos com o melhor atendimento da região. Tudo o que sua saúde e beleza precisam em um só lugar. Visite uma de nossas lojas! 📍",
-//     image: "/images/DrogaDoctor.jpeg",
-//     links: [
-//       { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/5534992113915" },
-//       {
-//         type: "instagram",
-//         label: "Instagram",
-//         url: "https://www.instagram.com/drogadoctor.entrefarma/",
-//       },
-//       { type: "website", label: "Site", url: "https://www.drogadoctor.com.br" },      
-//       { type: "email", label: "E-mail", url: "mailto:convenio@drogadoctor.com.br" },
-//       { type: "phone", label: "Telefone", url: "tel:+553432492353" },
-//       { type: "facebook", label: "Facebook", url: "https://www.facebook.com/DrogaDoctoreEntrefarma/" },
-//       { type: "location", label: "Localização", url: "https://maps.app.goo.gl/stkrE8NUUGWiEo838" },
-//     ],
-//   },
+ {
+    id: "VIA-PERMUTA-ARAGUARI",
+    category: "Serviços",
+    name: "VIA PERMUTA ARAGUARI",
+    tagline: "A MAIOR PLATAFORMA DE NEGÓCIOS ENTRE EMPRESÁRIOS DO BRASIL.",
+    description:
+      "Pare de perder dinheiro com o que está parado. A Via Permuta conecta empresários que querem vender mais, trocar melhor e crescer rápido. Aqui, estoque vira oportunidade e relacionamento vira faturamento. Quem entende, usa. Quem usa, cresce.",
+    image: "/images/ViaPermuta.jpeg",
+    links: [
+      { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/5534988278505" },
+      {
+        type: "instagram",
+        label: "Instagram",
+        url: "https://www.instagram.com/viapermutaaraguari/",
+      },
+      { type: "website", label: "Site", url: "https://www.vpclub.com.br" },      
+      { type: "email", label: "E-mail", url: "mailto:luiznetofontesjunior@gmail.com" },
+      { type: "phone", label: "Telefone", url: "tel:+5534988278505" },
+      //{ type: "location", label: "Localização", url: "https://maps.app.goo.gl/stkrE8NUUGWiEo838" },
+    ],
+  },
+
+ {
+    id: "Nádia-Sudario-MeditaMente ",
+    category: "Serviços",
+    name: "Nádia Sudario / MeditaMente ",
+    tagline: "Saúde mental e emocional.",
+    description:
+      "Sessões Integrativas individuais ou em grupo, para saúde mental, física e emocional. Promovemos palestras e oficinas para empresas e instituições em conformidade com a NR 01. Ventosas, auriculoterapia sem agulha, reiki, cristais, oleos essenciais e muito mais. Permita-se!",
+    image: "/images/NADIA.jpg",
+    links: [
+      { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/5534999598029" },
+      {
+        type: "instagram",
+        label: "Instagram",
+        url: "https://www.instagram.com/meditamentenadia_sudario?utm_source=qr&igsh=d3p0ejQ4aDVqemc0",
+      },
+      //{ type: "website", label: "Site", url: "https://www.vpclub.com.br" },      
+      { type: "email", label: "E-mail", url: "mailto:meditamente.mac@gmail.com" },
+      { type: "phone", label: "Telefone", url: "tel:+5534988315233" },
+      //{ type: "location", label: "Localização", url: "https://maps.app.goo.gl/stkrE8NUUGWiEo838" },
+    ],
+  },
+
 
 
 
   {
     id: "daydson-hugo-automatize",
-    category: "Tecnologia",
+    category: "Serviços",
     name: "Daydson Hugo | Automatize",
     tagline: "Desenvolvimento de Software",
     description:
@@ -131,7 +173,7 @@ export const showcaseMembers: ShowcaseMember[] = [
   },
   {
     id: "juliana-gomes",
-    category: "Fotografia",
+    category: "Serviços",
     name: "Juliana Gomes | Fotógrafa e Retratista",
     tagline: "Fotografia e Retrato Profissional",
     description:
