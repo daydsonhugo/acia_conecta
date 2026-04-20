@@ -2,7 +2,7 @@ import { ScrollReveal } from "../components/ScrollReveal";
 import { ShowcaseCard } from "../components/ShowcaseCard";
 import { showcaseMembers } from "../data/showcase";
 
-function embaralharArray(array) {
+function embaralharArray<T>(array: T[]) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]]; // Troca elementos
