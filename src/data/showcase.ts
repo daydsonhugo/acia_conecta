@@ -103,7 +103,7 @@ export const showcaseMembers: ShowcaseMember[] = [
  {
     id: "VIA-PERMUTA-ARAGUARI",
     category: "Serviços",
-    name: "VIA PERMUTA ARAGUARI",
+    name: "Via Permuta Araguari",
     tagline: "A MAIOR PLATAFORMA DE NEGÓCIOS ENTRE EMPRESÁRIOS DO BRASIL.",
     description:
       "Pare de perder dinheiro com o que está parado. A Via Permuta conecta empresários que querem vender mais, trocar melhor e crescer rápido. Aqui, estoque vira oportunidade e relacionamento vira faturamento. Quem entende, usa. Quem usa, cresce.",
@@ -114,6 +114,11 @@ export const showcaseMembers: ShowcaseMember[] = [
         type: "instagram",
         label: "Instagram",
         url: "https://www.instagram.com/viapermutaaraguari/",
+      },
+      {
+        type: "instagram",
+        label: "Instagram",
+        url: "https://www.instagram.com/viapermutagoiania/",
       },
       { type: "website", label: "Site", url: "https://www.vpclub.com.br" },      
       { type: "email", label: "E-mail", url: "mailto:luiznetofontesjunior@gmail.com" },
@@ -144,6 +149,27 @@ export const showcaseMembers: ShowcaseMember[] = [
     ],
   },
 
+  {
+    id: "RENATA-EMPRESTIMOS",
+    category: "Serviços",
+    name: "Renata Emprestimos",
+    tagline: "CRÉDITO FACILITADO, FINANCIAMENTO HABITACIONAL",
+    description:
+      "Somos especialistas em crédito seguro, com duas lojas em Araguari, incluindo uma unidade exclusiva da caixa, facilitamos seu crédito consignado INSS, FGTS e financiamentos com rapidez, e um atendimento que realmente resolve.",
+    image: "/images/RenataEmprestimos.jpeg",
+    links: [
+      { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/34984449314" },
+      {
+        type: "instagram",
+        label: "Instagram",
+        url: "https://www.instagram.com/renataemprestimoss?igsh=cWx5ZzZ1bzczeHc1&utm_source=qr",
+      },
+      { type: "website", label: "Site", url: "https://www.renataemprestimos.com" },
+      { type: "email", label: "E-mail", url: "mailto:renataemprestimosaraguari@gmail.com" },
+      { type: "phone", label: "Telefone", url: "tel:+5534984449314" },
+      { type: "location", label: "Localização", url: "https://maps.app.goo.gl/hPBVehG9kHYhR4y29?g_st=iw" },
+    ],
+  },
 
 
 

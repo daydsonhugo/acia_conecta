@@ -2,6 +2,14 @@ import { ScrollReveal } from "../components/ScrollReveal";
 import { ShowcaseCard } from "../components/ShowcaseCard";
 import { showcaseMembers } from "../data/showcase";
 
+function embaralharArray<T>(array: T[]) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]]; // Troca elementos
+    }
+    return array;
+}
+
 export function ShowcasePage() {
   return (
     <section className="page-shell bg-conecta-900">
@@ -12,12 +20,13 @@ export function ShowcasePage() {
           </h1>
           <p className="mt-5 text-lg text-white [text-shadow:0_8px_24px_rgba(0,0,0,0.18)]">
             Conectando os melhores profissionais de Araguari
-          </p>
+          </p>  
         </ScrollReveal>
 
         <div className="mt-12 grid items-stretch gap-6 xl:grid-cols-2">
-          {showcaseMembers.map((member, index) => (
-            <ScrollReveal
+          {/* {showcaseMembers.map((member, index) => ( */}
+          {embaralharArray(showcaseMembers).map((member, index) => (
+              <ScrollReveal
               key={member.id}
               delay={(index % 2) * 90}
               className="h-full self-stretch"
