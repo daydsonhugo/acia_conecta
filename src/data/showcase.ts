@@ -171,6 +171,37 @@ export const showcaseMembers: ShowcaseMember[] = [
     ],
   },
 
+  {
+    id: "SESI-SENAI-ARAGUARI-FIEMG",
+    category: "Indústria",
+    name: "SESI SENAI ARAGUARI - FIEMG",
+    tagline: "EDUCAÇÃO, TECNOLOGIA, INOVAÇÃO E DEMAIS SOLUÇÕES INDUSTRIAIS",
+    description: "O SENAI-MG é voltado para a qualificação técnica e a inovação tecnológica. É crucial para suprir a demanda por mão de obra qualificada no parque industrial. O SESI-MG é essencial para garantir que o trabalhador da indústria tenha saúde, segurança e educação básica de qualidade. ",
+    image: "/images/LogoSesiSenai.jpg",
+    links: [
+      { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/11971693051" },
+      {
+        type: "instagram",
+        label: "Instagram",
+        url: "https://www.instagram.com/senai_araguari/",
+      },
+      {
+        type: "instagram",
+        label: "Instagram",
+        url: "https://www.instagram.com/sesiaraguari/",
+      },
+      //{
+      //  type: "linkedin",
+      // label: "LinkedIn",
+      //  url: "https://www.linkedin.com/Senai Araguari/",
+      //},
+      { type: "phone", label: "Telefone", url: "tel:+553435120196" },
+      { type: "location", label: "Localização", url: "https://www.google.com/maps/search/Rua Manoel Assis Pereira, 140, bairro Goiás." },
+      // Comentário: Excelente iniciativa, quanto mais interações, melhor para o desenvolvimento perene da cidade.
+    ],
+  },
+
+
 
 
   {
