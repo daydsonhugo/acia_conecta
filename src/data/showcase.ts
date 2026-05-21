@@ -8,7 +8,7 @@ export const showcaseMembers: ShowcaseMember[] = [
     tagline: "Alarmes monitorados e soluções em segurança eletrônica",
     description:
       "A ALB Alarmes atua com soluções completas em segurança eletrônica, oferecendo projetos personalizados de alarme monitorado, CFTV, controle de acesso e tecnologias avançadas de monitoramento. Nosso compromisso é proteger patrimônios e negócios com tecnologia e agilidade.",
-    image: "/assets/images/alb-logo.png",
+    image: "images/alb-logo.png",
     links: [
       { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/3432491700" },
       {
@@ -196,8 +196,33 @@ export const showcaseMembers: ShowcaseMember[] = [
       //  url: "https://www.linkedin.com/Senai Araguari/",
       //},
       { type: "phone", label: "Telefone", url: "tel:+553435120196" },
-      { type: "location", label: "Localização", url: "https://www.google.com/maps/search/Rua Manoel Assis Pereira, 140, bairro Goiás." },
+      { type: "location", label: "Localização", url: "https://www.google.com/maps/search/Rua Manoel Assis Pereira, 140, bairro Goiás Araguari MG." },
       // Comentário: Excelente iniciativa, quanto mais interações, melhor para o desenvolvimento perene da cidade.
+    ],
+  },
+
+ {
+    id: "Dra-Mariah Cascão Odontopediatra ",
+    category: "Serviços",
+    name: "Dra Mariah Cascão Odontopediatra ",
+    tagline: "Odontopediatra ",
+    description: " Mariah Mordente Cascão, Odontopediatra pela USP/SP, atua há 16 anos em Araguari/MG com atendimento acolhedor e encantador, do pré-natal odontológico à adolescência, focado em prevenção e saúde bucal para crianças crescerem livres de cárie.",
+    image: "/images/MariahCascao.jpg",
+    links: [
+      { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/5534992500006" },
+      {
+        type: "instagram",
+        label: "Instagram",
+        url: "https://www.instagram.com/mariahcascao/",
+      },
+      {
+        type: "linkedin",
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/in/mariah-mordente-cascão-9270b829/",
+      },
+      { type: "email", label: "E-mail", url: "mailto:mariahh28@hotmail.com" },
+      { type: "phone", label: "Telefone", url: "tel:+5534999120006" },
+      { type: "location", label: "Localização", url: "https://www.google.com/maps/search/Praça Farid Nader 23 Araguari MG" },
     ],
   },
 
@@ -211,7 +236,7 @@ export const showcaseMembers: ShowcaseMember[] = [
     tagline: "Desenvolvimento de Software",
     description:
       "Transformo rotinas cansativas em processos automáticos. Desenvolvo soluções simples para escritórios que eliminam o trabalho manual repetitivo, tornando sua operação mais rápida e confiável. Menos tempo no teclado, mais tempo na estratégia do seu negócio.",
-    image: "/assets/images/daydson.jpg",
+    image: "/images/daydson.jpg",
     links: [
       { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/5534992061613" },
       {
@@ -235,7 +260,7 @@ export const showcaseMembers: ShowcaseMember[] = [
     tagline: "Fotografia e Retrato Profissional",
     description:
       "Retratos com propósito. Crio imagens que vendem, conectam e te posicionam como referência.",
-    image: "/assets/images/juliana.jpg",
+    image: "images/juliana.jpg",
     links: [
       { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/5534992624124" },
       {

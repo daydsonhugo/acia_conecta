@@ -22,7 +22,7 @@ export const boardMembers: BoardMember[] = [
     name: "Daydson Hugo da Silva",
     role: "Diretor de Performance e Tecnologia | ACIA Conecta",
     bio: "Empresário do segmento de tecnologia, com atuação voltada à inovação, performance e soluções digitais, contribuindo para a modernização de processos e uso estratégico da tecnologia.",
-    image: "/assets/images/daydson.jpg",
+    image: "/images/daydson.jpg",
   },
   {
     id: "gabriel-alves-goncalves",

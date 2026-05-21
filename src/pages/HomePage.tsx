@@ -21,14 +21,14 @@ export function HomePage() {
 
         <div className="relative mx-auto w-full max-w-7xl px-6 pb-20 pt-16 lg:pb-24 lg:pt-24">
           <div className="mx-auto flex max-w-4xl flex-col items-center text-center">
-            <a
+            {/* <a
               href={aciaSiteUrl}
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center rounded-full border border-white/18 bg-white/[0.03] px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.28em] text-white transition hover:border-white/30 hover:text-white"
             >
               {heroData.badge}
-            </a>
+            </a> */}
 
             <h1 className="mt-8 max-w-[13ch] font-display text-5xl font-semibold leading-[0.94] text-white [text-shadow:0_10px_28px_rgba(0,0,0,0.26)] md:text-7xl xl:text-[5.35rem]">
               {heroData.title}
