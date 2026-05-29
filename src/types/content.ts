@@ -21,7 +21,9 @@ export type LinkType =
   | "email"
   | "phone"
   | "facebook"
-  | "location";
+  | "location"
+  | "youtube"
+  | "tiktok";
 
 export type ShowcaseLink = {
   type: LinkType;
