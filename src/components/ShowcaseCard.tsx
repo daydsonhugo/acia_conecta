@@ -6,8 +6,10 @@ import {
   Mail,
   MessageCircle,
   Phone,
+  Youtube,
   Facebook,
   MapPin,
+  Tiktok
 } from "lucide-react";
 
 import { LinkType, ShowcaseMember } from "../types/content";
@@ -24,7 +26,22 @@ const iconByType: Record<LinkType, ReactNode> = {
   website: <Globe className="h-4 w-4" />,
   whatsapp: <MessageCircle className="h-4 w-4" />,
   facebook: <Facebook className="h-4 w-4" />,
+  youtube: <Youtube className="h-4 w-4" />,
   location: <MapPin className="h-4 w-4" />,
+    // Ícone customizado do TikTok integrado perfeitamente
+  tiktok: (
+    <svg
+      className="h-4 w-4"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+    </svg>
+  ),
 };
 
 export function ShowcaseCard({ member }: ShowcaseCardProps) {

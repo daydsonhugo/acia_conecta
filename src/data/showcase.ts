@@ -229,6 +229,128 @@ export const showcaseMembers: ShowcaseMember[] = [
 
 
 
+
+   {
+    id: "Luiz Gustavo / Futurum Investimentos",
+    category: "Serviços",
+    name: "Luiz Gustavo / Futurum Investimentos",
+    tagline: "Consórcios e Investimentos",
+    description: "Na Futurum Investimentos, transformamos planejamento em conquista. Especialistas em consórcios e estratégias inteligentes, ajudamos você a investir com segurança, realizar objetivos e construir patrimônio com visão de futuro e resultados reais.",
+    image: "/images/Futurum - Luiz Gustavo.jpeg",
+    links: [
+      { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/5534999418621" },
+      {
+        type: "instagram",
+        label: "Instagram",
+        url: "https://www.instagram.com/luiz_gustavofuturum/",
+      },
+      { type: "email", label: "E-mail", url: "mailto:futuruminvestimentos@gmail.com" },
+      { type: "phone", label: "Telefone", url: "tel:+5534999418621" },
+      { type: "location", label: "Localização", url: "https://www.google.com/maps/search/Rua Rio Branco, 227, Loja 2, Centro Araguari MG" },
+    ],
+  },
+
+
+   {
+    id: "Aliança Centro de Formação Profissional ",
+    category: "Serviços",
+    name: "Aliança Centro de Formação Profissional ",
+    tagline: "Instituição especializada no setor automotivo ",
+    description:
+      "A Aliança Centro de Formação Profissional é uma instituição de ensino técnico especializada no setor automotivo, focada em capacitar profissionais por meio de treinamentos práticos, modernos e alinhados às demandas do mercado de reparação e manutenção de veículos.",
+    image: "/images/ALIANCA CENTRO DE FORMACAO PROFISSIONAL.jpg",
+    links: [
+      { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/553435127261" },
+      {
+        type: "instagram",
+        label: "Instagram",
+        url: "https://www.instagram.com/alianca_cfp?igsh=MXVhczNiMjg3NGVjMQ==",
+      },
+      {
+        type: "linkedin",
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/in/moises-dutra-22834a5b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      },      
+      { type: "website", label: "Site", url: "https://aliancacfp.com.br/" },      
+      { type: "email", label: "E-mail", url: "mailto:moisesdutra@aliancacfp.com.br" },
+      { type: "phone", label: "Telefone", url: "tel:+553435127261" },
+      { type: "youtube", label: "YouTube", url: "https://www.youtube.com/@ALIANCACFP" },
+      { type: "location", label: "Localização", url: "https://www.google.com/maps/search/Rua Padre Anchieta 146 Araguari MG" },
+    ],
+  },
+
+ {
+    id: "Lorena Souto",
+    category: "Serviços",
+    name: "Lorena Souto ",
+    tagline: "Advocacia Previdenciária e Trabalhista",
+    description:
+      "Lorena Souto | Advogada especialista em Direito Previdenciário e Trabalhista, com pós-graduação pela Univ. de Coimbra (Portugal). Ofereço suporte jurídico estratégico, consultoria preventiva e contenciosa para empresas, trabalhadores e segurados de Araguari. ",
+    image: "/images/Lorena Souto.jpg",
+    links: [
+      { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/5534988269603" },
+      {
+        type: "instagram",
+        label: "Instagram",
+        url: "https://www.instagram.com/lorena_sousaesoutoadv/",
+      },
+      {
+        type: "linkedin",
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/in/lorena-souto-64003918a",
+      },       
+      { type: "email", label: "E-mail", url: "mailto:sousaesouto@gmail.com" },
+      { type: "phone", label: "Telefone", url: "tel:+553432427780" },
+      { type: "facebook", label: "Facebook", url: "https://www.facebook.com/share/1AN2eFv1Bz/" },
+      { type: "tiktok", label: "TikTok", url: "https://www.tiktok.com/@lorenasoutoadv" },
+      { type: "location", label: "Localização", url: "https://www.google.com/maps/search/Rua Olegário Maciel, 52, Centro Araguari MG" },
+    ],
+  },
+
+
+ {
+    id: "Condimentos Aliança",
+    category: "Comércio",
+    name: "Condimentos Aliança",
+    tagline: "Temperos, chás e especiarias.",
+    description:
+      "A Condimentos Aliança é uma empresa familiar especializada no envase de chás, especiarias e temperos. Levamos mais sabor, qualidade e confiança para a cozinha dos nossos clientes, com produtos selecionados e preparados para quem realmente merece o melhor.",
+    image: "/images/ProdutosAliança.jpg",
+    links: [
+      { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/553421090852" },
+      {
+        type: "instagram",
+        label: "Instagram",
+        url: "https://www.instagram.com/condimentosalianca/",
+      },     
+      { type: "email", label: "E-mail", url: "mailto:condimentosaliancasa@gmail.com" },
+      { type: "phone", label: "Telefone", url: "tel:+553421090852" },
+      { type: "location", label: "Localização", url: "https://www.google.com/maps/search/Rua Monte Alegre, 52. Bairro Santa Helena Araguari MG" },
+    ],
+  },
+
+   {
+    id: "A&B Locação de Máquinas ",
+    category: "Serviços",
+    name: "A&B Locação de Máquinas ",
+    tagline: "Locação de Máquinas e serviços ",
+    description:
+      "Locação e serviços de retroescavadeira, rompedor hidráulico, escavadeira hidráulica, caminhão basculante, atendimento em Araguari e região. Qualidade, pontualidade, Mão de obra qualificada e confiabilidade.",
+    image: "/images/AeB Locação de Máquinas.jpg",
+    links: [
+      { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/5534988361436" },
+      {
+        type: "instagram",
+        label: "Instagram",
+        url: "https://www.instagram.com/aeb_locacoes/",
+      },
+      { type: "website", label: "Site", url: "https://www.aeblocacaodemaquinas.com.br" },      
+      { type: "email", label: "E-mail", url: "mailto:aeblocacaodemaquinas@gmail.com" },
+      { type: "phone", label: "Telefone", url: "tel:+553432423098" },
+      { type: "location", label: "Localização", url: "https://www.google.com/maps/search/Rua Tocantins, 570, Bairro Brasília - Araguari MG" },
+    ],
+  },
+
   {
     id: "daydson-hugo-automatize",
     category: "Serviços",
