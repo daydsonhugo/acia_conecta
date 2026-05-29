@@ -9,7 +9,6 @@ import {
   Youtube,
   Facebook,
   MapPin,
-  Tiktok
 } from "lucide-react";
 
 import { LinkType, ShowcaseMember } from "../types/content";
