@@ -351,6 +351,30 @@ export const showcaseMembers: ShowcaseMember[] = [
     ],
   },
 
+
+  {
+    id: "Ivecio Ransolin ",
+    category: "Serviços",
+    name: "Ivecio Ransolin ",
+    tagline: "Consultor de negócios ACIA",
+    description:
+      "A ACIA oferece vários benefícios para sua empresa, planos de saúde, odontológico, desconto na sua conta de energia que pode chegar a 30% , CORRESPONDENTE BANCÁRIO BDMG, capital de giro para sua empresa, PRONAMPE, entre outros. AGENTE BANCÁRIO BNDS, FINEP, projetos e inovação. ",
+    image: "/images/ivecio_ransolin.jpg",
+    links: [
+      { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/5534988787176" },
+      {
+        type: "instagram",
+        label: "Instagram",
+        url: "https://www.instagram.com/ivecio_ransolin?igsh=Z2p2ZXIxa3hvazU0",
+      },
+      { type: "email", label: "E-mail", url: "mailto:ransolinacia@gmail.com" },
+      { type: "phone", label: "Telefone", url: "tel:+553432416939" },
+      { type: "location", label: "Localização", url: "https://www.google.com/maps/search/Avenida Tiradentes, 35 centro - Araguari MG" },
+    ],
+  },
+
+
+
   {
     id: "daydson-hugo-automatize",
     category: "Serviços",
