@@ -374,6 +374,26 @@ export const showcaseMembers: ShowcaseMember[] = [
   },
 
 
+  {
+    id: "ADL Despachante ",
+    category: "Serviços",
+    name: "ADL Despachante ",
+    tagline: "Despachante Documentalista",
+    description:
+      "ADL DESPACHANTE, empresa há mais de 40 anos construindo confiança; atendimento profissional e humanizado; Emplacamentos; Transferências; Renovação da CNH; consultas de valores / localização e pesquisa leilão.",
+    image: "/images/ADL_Despachante.jpg",
+    links: [
+      { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/553432421775" },
+      {
+        type: "instagram",
+        label: "Instagram",
+        url: "https://www.instagram.com/rodrigo_adldespachante/",
+      },
+      { type: "email", label: "E-mail", url: "mailto:ADOLFODESPACHANTE@HOTMAIL.COM" },
+      { type: "phone", label: "Telefone", url: "tel:+553432421775" },
+      { type: "location", label: "Localização", url: "https://maps.app.goo.gl/ZpyG6PDauazuwXdy6" },
+    ],
+  },
 
   {
     id: "daydson-hugo-automatize",
